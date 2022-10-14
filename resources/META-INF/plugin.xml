@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>ideal-dev-tools</id>
+    <name>DevTools</name>
+    <version>1.0</version>
+    <vendor email="jixiongxu@meizu.com" url="https://www.meizu.com">xujixiong</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+    <depends>com.intellij.java</depends>
+
+    <idea-version since-build="173.0"/>
+    <extensions defaultExtensionNs="com.intellij.modules.java">
+    </extensions>
+
+    <actions>
+        <action id="ideal-dev-tools" class="tools.DevToolAction" text="DevTools"
+                description="Com.tools.dev.tools">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+    </actions>
+
+</idea-plugin>

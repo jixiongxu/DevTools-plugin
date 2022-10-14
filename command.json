@@ -1,0 +1,96 @@
+{
+  "data": [
+    {
+      "key": "Edit Configtion",
+      "value": "gedit /home/xujixiong/PackageInstaller/android-studio/bin/command.json"
+    },
+    {
+      "key": "Screenshot",
+      "value": "sh /home/xujixiong/Desktop/shell/ScreenCap.sh"
+    },
+    {
+      "key": "Open LUDO Design",
+      "value": "nautilus /run/user/1000/gvfs/smb-share:server=192.168.16.189,share=部门/设计部/需求设计稿/海外项目/VidHunter/TP"
+    },
+    {
+      "key": "Synchronize LUDO Design",
+      "value": "sh /home/xujixiong/Desktop/LudoDoc/sync_ludo.sh"
+    },
+    {
+      "key": "Start LUDO",
+      "value": "adb shell am start com.hiyaludo.android/org.cocos2dx.javascript.SplashActivity"
+    },
+    {
+      "key": "Stop LUDO",
+      "value": "adb shell am force-stop com.hiyaludo.android"
+    },
+    {
+      "key": "Clear LUDO",
+      "value": "adb shell pm clear com.hiyaludo.android"
+    },
+    {
+      "key": "Screen Projection",
+      "value": "scrcpy"
+    },
+    {
+      "key": "Open Fidller",
+      "value": "mono /home/xujixiong/PackageInstaller/Fiddler/app/Fiddler.exe"
+    },
+    {
+      "key": "Open postman",
+      "value": "/home/xujixiong/PackageInstaller/Postman/app/Postman"
+    },
+    {
+      "key": "Reboot ADB",
+      "value": "sh /home/xujixiong/Desktop/shell/RestartAdb.sh"
+    },
+    {
+      "key": "Startup time",
+      "value": "sh /home/xujixiong/Desktop/shell/BSShell.sh"
+    },
+    {
+      "key": "Currrent Activity",
+      "value": "adb shell dumpsys activity activities | grep mResumedActivity"
+    },
+    {
+      "key": "Online Device",
+      "value": "adb devices"
+    },
+    {
+      "key": "Uninstall LUDO",
+      "value": "adb shell pm uninstall com.hiyaludo.android"
+    },
+    {
+      "key": "Install Debug LUDO",
+      "value": "adb install -r -d -t /home/xujixiong/MainDev/ludo-android/ludo/proj.android-studio/app/build/intermediates/apk/alphaBase/debug/*.apk"
+    },
+    {
+      "key": "QS Doc",
+      "value": "gedit /home/xujixiong/Desktop/Doc/Question"
+    },
+    {
+      "key": "Screen Resolution",
+      "value": "adb shell wm size"
+    },
+    {
+      "key": "Monkey LUDO",
+      "value": "adb shell monkey -p com.hiyaludo.android --throttle 500 --bugreport --ignore-crashes --ignore-security-exceptions --monitor-native-crashes -v 2147483647"
+    },
+    {
+      "key": "LUDO Design",
+      "value": "nautilus /home/xujixiong/Desktop/LudoDoc/LudoUI"
+    },
+    {
+      "key": "LUDO APP Drawable",
+      "value": "nautilus /home/xujixiong/MainDev/ludo-android/ludo/proj.android-studio/app/src/main/res/drawable-xxhdpi"
+    },
+    {
+      "key": "Rebase LUDO",
+      "value": "sh /home/xujixiong/Desktop/shell/RebaseLudo.sh"
+    },
+    {
+      "key": "Open Shell Folder",
+      "value": "nautilus /home/xujixiong/Desktop/shell"
+    }
+  ]
+}
