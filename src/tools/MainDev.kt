@@ -40,7 +40,7 @@ object MainDev {
 
     fun showImp() {
         val window = DefaultJFrame("Alias脚本工具").also {
-            it.setSize(900, 500)
+            it.setSize(1080, 760)
         }
         window.contentPane = JPanel(FlowLayout())
         addClearLogcat(window)
@@ -117,7 +117,7 @@ object MainDev {
 
     private fun addLogcat(window: JFrame) {
         mLogTextArea = TextScrollPane(window)
-        mLogTextArea?.setSize(890, 250)
+        mLogTextArea?.setSize(1060, 250)
         mLogTextArea?.append("欢迎使用本公司智能产品!!")
         mLogTextArea?.append("\n配置文件:${File(CONFIG_FILE).absolutePath}")
     }
