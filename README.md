@@ -5,9 +5,9 @@
 
 
 ## 使用
-1、安装Alias脚本工具插件  DevTools-plugin.jar\n
-2、Tools→DevTools→查看配置文件路径并自定义自己的命令\n
-3、重新打开工具界面，单击执行命令\n
+1、安装Alias脚本工具插件  DevTools-plugin.jar <br />
+2、Tools→DevTools→查看配置文件路径并自定义自己的命令 <br />
+3、重新打开工具界面，单击执行命令 <br />
 
 ## 配置文件例子
 ```json
